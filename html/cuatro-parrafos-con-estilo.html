@@ -5,13 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio - Cuatro párrafos con estilos</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: aqua;
+        }
+
+        p {
+            color: blue;
+        }
+
+        p span {
+            color: red;
+        }
+
+        p.bg-silver {
+            background: silver;
+        }
+
+        p.right {
+            font-family: Verdana;
+            text-align: right;
+            font-size: 20px;
+        }
+    </style>
 </head>
 
-<body style="text-align: center; background-color: aqua;">
-    <p style="color: blue;">Texto <span style="color: red;">centrado</span></p>
-    <p style="background:silver; color: blue;">Esto es otro párrafo</p>
-    <p style="color: blue; font-family: Verdana; text-align: right; font-size: 20px;">Texto <span style="color: red;">alineado</span> a la derecha</p>
-    <p style="background:silver; color: blue;">Otro texto centrado sobre fondo de color plata</p>
+<body>
+    <p>Texto <span>centrado</span></p>
+    <p class="bg-silver">Esto es otro párrafo</p>
+    <p class="right">Texto <span>alineado</span> a la derecha</p>
+    <p class="bg-silver">Otro texto centrado sobre fondo de color plata</p>
 </body>
 
 </html>
