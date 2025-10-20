@@ -60,22 +60,16 @@ p {
 #contenido {
     background-color: #ddd;
     float: left;
-    margin-bottom: -32767px;
-    max-width: -moz-calc(92% - 120px);
-    max-width: -webkit-calc(92% - 120px);
-    max-width: calc(92% - 120px);
     padding: 2%;
-    padding-bottom: 32767px;
     width: 71%;
 }
 
 #menu {
     background-color: #999;
     float: left;
-    margin-bottom: -32767px;
     min-width: 120px;
     padding: 2%;
-    padding-bottom: 32767px;
+    height: 100%;
     width: 21%;
 }
 
